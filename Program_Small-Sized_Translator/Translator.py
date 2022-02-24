@@ -3,10 +3,10 @@
 
 # Purpose of program:
 
-'''
+"""
 This is a small-sized number translator that translates integer
 numbers by taking input from the user into Spanish word form.
-'''
+"""
 
 
 def main():
