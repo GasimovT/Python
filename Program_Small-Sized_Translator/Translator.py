@@ -16,7 +16,6 @@ def main():
     for line in file_d:
         words = line.split()
         dictionary[int(words[0])] = words[1]
-    print(dictionary)
 
     while True:
         try:
