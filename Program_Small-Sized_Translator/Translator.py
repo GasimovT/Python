@@ -23,8 +23,8 @@ def main():
             number = int(input("Please enter number between 1 and 100 (type 0 to quit): "))
             # If number is within range of 1 and 100, print result and continue to loop
             if 0 < number <= 100:
-                separator = " ".join(dictionary[number])
-                print("\nThe Spanish translation of", number, "is", separator, ".\n")
+                vals = " ".join(dictionary[number])
+                print("\nThe Spanish translation of", number, "is", vals, ".\n")
                 continue
             # To break out of loop
             elif number == 0:
